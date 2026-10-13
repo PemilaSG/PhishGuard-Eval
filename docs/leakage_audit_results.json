@@ -1,0 +1,219 @@
+{
+  "tier_1": {
+    "tier": 1,
+    "description": "Exact Canonical URL Duplication",
+    "phishing_raw_count": 33228,
+    "phishing_unique_count": 33224,
+    "internal_duplicates": 4,
+    "internal_dup_rate_pct": 0.01,
+    "legit_unique_count": 1000000,
+    "cross_overlap_count": 0,
+    "cross_overlap_pct": 0.0,
+    "sample_overlaps": []
+  },
+  "tier_2": {
+    "tier": 2,
+    "description": "Registered Domain (eTLD+1) Overlap",
+    "phishing_unique_domains": 7072,
+    "legit_unique_domains": 999999,
+    "overlapping_domains": 102,
+    "phish_domain_overlap_pct": 1.44,
+    "sample_overlaps": [
+      "4everland.app",
+      "aliyuncs.com",
+      "amazonaws.com",
+      "azionedge.net",
+      "azurefd.net",
+      "azurestaticapps.net",
+      "b-cdn.net",
+      "backblazeb2.com",
+      "bitbucket.org",
+      "blogspot.com"
+    ]
+  },
+  "tier_3": {
+    "tier": 3,
+    "description": "Subdomain & Brand-Keyword Clustering",
+    "phishing_brand_keyword_hits": 486,
+    "phishing_urls_with_brand": 486,
+    "legit_urls_with_brand": 2066,
+    "shared_brand_keywords": 24,
+    "shared_brand_list": [
+      "amazon",
+      "apple",
+      "binance",
+      "blockchain",
+      "chase",
+      "coinbase",
+      "dhl",
+      "docusign",
+      "dropbox",
+      "ebay",
+      "facebook",
+      "google",
+      "instagram",
+      "linkedin",
+      "metamask",
+      "microsoft",
+      "netflix",
+      "office365",
+      "outlook",
+      "paypal",
+      "spotify",
+      "steam",
+      "twitter",
+      "yahoo"
+    ],
+    "brand_overlap_detail": [
+      {
+        "brand": "google",
+        "phishing_count": 170,
+        "legit_count": 452
+      },
+      {
+        "brand": "dropbox",
+        "phishing_count": 84,
+        "legit_count": 21
+      },
+      {
+        "brand": "amazon",
+        "phishing_count": 34,
+        "legit_count": 205
+      },
+      {
+        "brand": "apple",
+        "phishing_count": 29,
+        "legit_count": 240
+      },
+      {
+        "brand": "steam",
+        "phishing_count": 21,
+        "legit_count": 201
+      },
+      {
+        "brand": "linkedin",
+        "phishing_count": 21,
+        "legit_count": 9
+      },
+      {
+        "brand": "instagram",
+        "phishing_count": 15,
+        "legit_count": 50
+      },
+      {
+        "brand": "blockchain",
+        "phishing_count": 15,
+        "legit_count": 43
+      },
+      {
+        "brand": "metamask",
+        "phishing_count": 14,
+        "legit_count": 1
+      },
+      {
+        "brand": "netflix",
+        "phishing_count": 13,
+        "legit_count": 51
+      },
+      {
+        "brand": "facebook",
+        "phishing_count": 13,
+        "legit_count": 57
+      },
+      {
+        "brand": "spotify",
+        "phishing_count": 11,
+        "legit_count": 34
+      },
+      {
+        "brand": "twitter",
+        "phishing_count": 10,
+        "legit_count": 32
+      },
+      {
+        "brand": "microsoft",
+        "phishing_count": 10,
+        "legit_count": 96
+      },
+      {
+        "brand": "chase",
+        "phishing_count": 7,
+        "legit_count": 78
+      },
+      {
+        "brand": "binance",
+        "phishing_count": 7,
+        "legit_count": 19
+      },
+      {
+        "brand": "docusign",
+        "phishing_count": 3,
+        "legit_count": 3
+      },
+      {
+        "brand": "outlook",
+        "phishing_count": 2,
+        "legit_count": 47
+      },
+      {
+        "brand": "dhl",
+        "phishing_count": 2,
+        "legit_count": 43
+      },
+      {
+        "brand": "ebay",
+        "phishing_count": 1,
+        "legit_count": 135
+      },
+      {
+        "brand": "coinbase",
+        "phishing_count": 1,
+        "legit_count": 6
+      },
+      {
+        "brand": "yahoo",
+        "phishing_count": 1,
+        "legit_count": 63
+      },
+      {
+        "brand": "paypal",
+        "phishing_count": 1,
+        "legit_count": 145
+      },
+      {
+        "brand": "office365",
+        "phishing_count": 1,
+        "legit_count": 10
+      }
+    ],
+    "phishing_multi_level_subdomains": 115,
+    "sample_multi_level_subdomains": [
+      "https://rough-truth-e072.publicftpresend.workers.dev/dxnobk",
+      "https://rough-truth-e072.publicftpresend.workers.dev/vuztq",
+      "https://rough-truth-e072.publicftpresend.workers.dev/abjeyp",
+      "https://rough-truth-e072.publicftpresend.workers.dev/smpuvcjzd",
+      "https://drive.usercontent.google.com/download?id=1zntk1iIhB4Tc_TngGAMWtYs_ObEBz9Xv&export=download"
+    ]
+  },
+  "tier_4": {
+    "tier": 4,
+    "description": "Network / IP Infrastructure Overlap",
+    "phishing_total_urls": 33228,
+    "phishing_raw_ip_url_count": 16038,
+    "phishing_raw_ip_pct": 48.27,
+    "legit_raw_ip_url_count": 0,
+    "legit_raw_ip_pct": 0.0,
+    "unique_phishing_ips": 6496,
+    "unique_legit_ips": 0,
+    "ip_overlap_count": 0,
+    "sample_phishing_ips": [
+      "1.196.104.238",
+      "1.2.185.92",
+      "1.23.99.116",
+      "1.57.109.163",
+      "1.58.121.106"
+    ],
+    "sample_ip_overlaps": []
+  },
+  "hygiene_score": 0.7807
+}
