@@ -1,0 +1,246 @@
+{
+  "results": {
+    "naive": {
+      "LogisticRegression": {
+        "accuracy": 0.9986,
+        "precision": 1.0,
+        "recall": 0.9971,
+        "f1": 0.9986,
+        "fpr": 0.0,
+        "support_test": 13291,
+        "phishing_test": 6604,
+        "legit_test": 6687
+      },
+      "RandomForest": {
+        "accuracy": 0.9999,
+        "precision": 1.0,
+        "recall": 0.9998,
+        "f1": 0.9999,
+        "fpr": 0.0,
+        "support_test": 13291,
+        "phishing_test": 6604,
+        "legit_test": 6687
+      },
+      "XGBoost": {
+        "accuracy": 0.9999,
+        "precision": 1.0,
+        "recall": 0.9998,
+        "f1": 0.9999,
+        "fpr": 0.0,
+        "support_test": 13291,
+        "phishing_test": 6604,
+        "legit_test": 6687
+      }
+    },
+    "tier1": {
+      "LogisticRegression": {
+        "accuracy": 0.9986,
+        "precision": 1.0,
+        "recall": 0.9971,
+        "f1": 0.9986,
+        "fpr": 0.0,
+        "support_test": 13291,
+        "phishing_test": 6604,
+        "legit_test": 6687
+      },
+      "RandomForest": {
+        "accuracy": 0.9999,
+        "precision": 1.0,
+        "recall": 0.9998,
+        "f1": 0.9999,
+        "fpr": 0.0,
+        "support_test": 13291,
+        "phishing_test": 6604,
+        "legit_test": 6687
+      },
+      "XGBoost": {
+        "accuracy": 0.9999,
+        "precision": 1.0,
+        "recall": 0.9998,
+        "f1": 0.9999,
+        "fpr": 0.0,
+        "support_test": 13291,
+        "phishing_test": 6604,
+        "legit_test": 6687
+      }
+    },
+    "tier2": {
+      "LogisticRegression": {
+        "accuracy": 0.9983,
+        "precision": 1.0,
+        "recall": 0.9949,
+        "f1": 0.9975,
+        "fpr": 0.0,
+        "support_test": 13291,
+        "phishing_test": 4527,
+        "legit_test": 8764
+      },
+      "RandomForest": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "fpr": 0.0,
+        "support_test": 13291,
+        "phishing_test": 4527,
+        "legit_test": 8764
+      },
+      "XGBoost": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "fpr": 0.0,
+        "support_test": 13291,
+        "phishing_test": 4527,
+        "legit_test": 8764
+      }
+    },
+    "tier3": {
+      "LogisticRegression": {
+        "accuracy": 0.9996,
+        "precision": 1.0,
+        "recall": 0.9991,
+        "f1": 0.9996,
+        "fpr": 0.0,
+        "support_test": 13644,
+        "phishing_test": 6805,
+        "legit_test": 6839
+      },
+      "RandomForest": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "fpr": 0.0,
+        "support_test": 13644,
+        "phishing_test": 6805,
+        "legit_test": 6839
+      },
+      "XGBoost": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "fpr": 0.0,
+        "support_test": 13644,
+        "phishing_test": 6805,
+        "legit_test": 6839
+      }
+    },
+    "tier4": {
+      "LogisticRegression": {
+        "accuracy": 0.9992,
+        "precision": 0.9993,
+        "recall": 0.9984,
+        "f1": 0.9989,
+        "fpr": 0.0003,
+        "support_test": 13292,
+        "phishing_test": 4404,
+        "legit_test": 8888
+      },
+      "RandomForest": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "fpr": 0.0,
+        "support_test": 13292,
+        "phishing_test": 4404,
+        "legit_test": 8888
+      },
+      "XGBoost": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "fpr": 0.0,
+        "support_test": 13292,
+        "phishing_test": 4404,
+        "legit_test": 8888
+      }
+    }
+  },
+  "deltas": {
+    "tier1": {
+      "LogisticRegression": {
+        "delta_f1": 0.0,
+        "delta_precision": 0.0,
+        "delta_recall": 0.0,
+        "delta_fpr": 0.0
+      },
+      "RandomForest": {
+        "delta_f1": 0.0,
+        "delta_precision": 0.0,
+        "delta_recall": 0.0,
+        "delta_fpr": 0.0
+      },
+      "XGBoost": {
+        "delta_f1": 0.0,
+        "delta_precision": 0.0,
+        "delta_recall": 0.0,
+        "delta_fpr": 0.0
+      }
+    },
+    "tier2": {
+      "LogisticRegression": {
+        "delta_f1": -0.0011,
+        "delta_precision": 0.0,
+        "delta_recall": -0.0022,
+        "delta_fpr": 0.0
+      },
+      "RandomForest": {
+        "delta_f1": 0.0001,
+        "delta_precision": 0.0,
+        "delta_recall": 0.0002,
+        "delta_fpr": 0.0
+      },
+      "XGBoost": {
+        "delta_f1": 0.0001,
+        "delta_precision": 0.0,
+        "delta_recall": 0.0002,
+        "delta_fpr": 0.0
+      }
+    },
+    "tier3": {
+      "LogisticRegression": {
+        "delta_f1": 0.001,
+        "delta_precision": 0.0,
+        "delta_recall": 0.002,
+        "delta_fpr": 0.0
+      },
+      "RandomForest": {
+        "delta_f1": 0.0001,
+        "delta_precision": 0.0,
+        "delta_recall": 0.0002,
+        "delta_fpr": 0.0
+      },
+      "XGBoost": {
+        "delta_f1": 0.0001,
+        "delta_precision": 0.0,
+        "delta_recall": 0.0002,
+        "delta_fpr": 0.0
+      }
+    },
+    "tier4": {
+      "LogisticRegression": {
+        "delta_f1": 0.0003,
+        "delta_precision": -0.0007,
+        "delta_recall": 0.0013,
+        "delta_fpr": 0.0003
+      },
+      "RandomForest": {
+        "delta_f1": 0.0001,
+        "delta_precision": 0.0,
+        "delta_recall": 0.0002,
+        "delta_fpr": 0.0
+      },
+      "XGBoost": {
+        "delta_f1": 0.0001,
+        "delta_precision": 0.0,
+        "delta_recall": 0.0002,
+        "delta_fpr": 0.0
+      }
+    }
+  }
+}
