@@ -23,12 +23,12 @@ wheels/
 .venv/
 venv/
 
-# Large Datasets
+# Large raw data files only (keep splits, processed metadata, figures)
 data/raw/
-data/processed/
+data/processed/dataset.csv
+data/splits/*.csv
 *.zip
 *.tar.gz
-*.csv
 
 # Environment & IDE
 .idea/

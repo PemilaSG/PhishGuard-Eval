@@ -1,0 +1,24 @@
+{
+  "feature_cols": [
+    "is_ip",
+    "url_length",
+    "hostname_length",
+    "path_length",
+    "num_dots",
+    "num_hyphens",
+    "num_underscores",
+    "num_digits",
+    "num_subdomains",
+    "has_https",
+    "has_at_symbol",
+    "has_double_slash",
+    "has_hex_encoding",
+    "tld_length",
+    "path_depth",
+    "url_entropy",
+    "has_brand_keyword",
+    "query_length",
+    "num_special_chars"
+  ],
+  "label_col": "label"
+}
